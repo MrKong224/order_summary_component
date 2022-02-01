@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap');
 
 body {
   margin: 0;
@@ -24,15 +24,46 @@ body {
   border-radius: 20px 20px 0 0;
 }
 .card-body {
-  padding: 0 20px;
+  padding: 0 60px;
   text-align: center;
 }
 .card-body h2 {
   font-weight: 900;
 }
 .text-hint {
-  font-weight: 500;
+  font-weight: 400;
   color: hsl(224, 23%, 55%);
+}
+.price {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px 0;
+  border-radius: 10px;
+  background-color: hsl(225, 100%, 98%);
+}
+.prdBox {
+  display: flex;
+}
+.prdDetail {
+  margin-left: 15px;
+}
+.prdDetail .prdTitle {
+  font-weight: 700;
+}
+.prdDetail .prdPrice {
+  font-weight: 400;
+  color: hsl(224, 23%, 55%)
+}
+.btnChange {
+  border: none;
+  background-color: transparent;
+  color: hsl(245, 75%, 52%);
+  cursor: pointer;
+}
+.btnChange:hover {
+  color: hsl(245, 79%, 71%);
 }
 
 
