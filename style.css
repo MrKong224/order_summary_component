@@ -6,12 +6,33 @@ body {
   font-family: 'Red Hat Display', sans-serif;
   box-sizing: content-box;
 }
-
 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url('/images/pattern-background-mobile.svg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+}
+.card {
+  width: 450px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.card-header-img img {
+  border-radius: 20px 20px 0 0;
+}
+.card-body {
+  padding: 0 20px;
+  text-align: center;
+}
+.card-body h2 {
+  font-weight: 900;
+}
+.text-hint {
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
 }
 
 
@@ -20,4 +41,20 @@ body {
   .container {
     background-image: url('/images/pattern-background-desktop.svg');
   }
+}
+
+.Paleblue {
+  color: hsl(225, 100%, 94%);
+}
+.Brightblue {
+  color: hsl(245, 75%, 52%);
+}
+.Verypaleblue {
+  color: hsl(225, 100%, 98%);
+}
+.DesaturatedBlue {
+  color: hsl(224, 23%, 55%);
+}
+.DarkBlue {
+  color: hsl(223, 47%, 23%);
 }
